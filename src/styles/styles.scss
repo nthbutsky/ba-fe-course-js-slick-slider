@@ -96,6 +96,7 @@ body {
   align-items: center;
 }
 .box {
+  position: relative;
   width: 80%;
   height: 32rem;
   background: #fff;
@@ -121,14 +122,14 @@ body {
 }
 .plus {
   position: absolute;
-  top: 10rem;
-  right: 31rem;
+  top: 2rem;
+  right: 22rem;
   height: 20px;
 }
 .triangle {
   position: absolute;
-  top: 16rem;
-  left: 24rem;
+  top: 8rem;
+  left: 15rem;
   height: 30px;
 }
 .slider {
@@ -162,11 +163,15 @@ body {
 }
 .prev {
   position: absolute;
-  left: 13rem;
-  top: 29rem;
+  left: 3rem;
+  top: 21rem;
 }
 .next {
   position: absolute;
-  right: 12rem;
-  top: 29rem;
+  right: 3rem;
+  top: 21rem;
+}
+
+.arrow {
+  height: 50px;
 }
